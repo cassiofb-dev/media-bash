@@ -1,5 +1,5 @@
 read -p "Video file: " video_file
-read -p "Split time (hh:mm:ss)" split_time
+read -p "Split time (hh:mm:ss): " split_time
 
 IFS="."
 
