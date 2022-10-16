@@ -10,4 +10,4 @@ file_ext="${strarr[1]}"
 
 codec_str="-c copy -map 0 -segment_time ${split_time} -f segment -reset_timestamps 1"
 
-eval "ffmpeg -i input/${video_file}  ${codec_str} output/${file_name}%03d.${file_ext}"
+eval "ffmpeg -i input/${video_file}  ${codec_str} output/${file_name}_%03d.${file_ext}"
