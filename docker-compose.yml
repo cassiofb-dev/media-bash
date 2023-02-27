@@ -1,0 +1,10 @@
+version: '3.9'
+
+services:
+  media-bash:
+    container_name: media-bash
+    image: alpine:latest
+    working_dir: /media-bash
+    command: sh -c "apk add bash ffmpeg yt-dlp && tail -f /dev/null"
+    volumes:
+      - ./:/media-bash

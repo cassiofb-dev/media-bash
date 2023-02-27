@@ -4,7 +4,9 @@ Useful media conversions for linux.
 
 ## Usage
 
-### 1 - Binary Files
+### 1 - Install
+
+#### Binary Install
 
 Download binary programs and put in path:
 
@@ -12,9 +14,13 @@ Download binary programs and put in path:
 2. [pngquant](https://pngquant.org/)
 3. [yt-dlp](https://github.com/yt-dlp/yt-dlp)
 
+#### Docker Install
+
+Download and install docker, run ``docker compose up -d`` and then attach a shell to the running container.
+
 ### 2 - Run scripts
 
-Run file ``main.sh`` and follow instructions.
+Run ``bash main.sh`` and follow instructions.
 
 ## Ultimate Slow and Reverb Pipeline
 
