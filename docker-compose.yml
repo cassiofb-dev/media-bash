@@ -5,6 +5,6 @@ services:
     container_name: media-bash
     image: alpine:latest
     working_dir: /media-bash
-    command: sh -c "apk add bash ffmpeg yt-dlp && tail -f /dev/null"
+    command: sh -c "apk add bash ffmpeg yt-dlp pngquant && tail -f /dev/null"
     volumes:
       - ./:/media-bash
